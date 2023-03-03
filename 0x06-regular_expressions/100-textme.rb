@@ -2,4 +2,4 @@
 # Match Sender, Reciever and flags from 
 # Message logs
 
-puts ARGV[0].scan(/from:+\K(\d{11})/).join
+puts ARGV[0].scan(/[A-Z\s]+/).join
